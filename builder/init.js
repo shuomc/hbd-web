@@ -11,8 +11,8 @@ const {
 require("dotenv").config();
 
 process.env.NAME = "张颢曦";
-// process.env.PIC = "https://img.picui.cn/free/2025/03/25/67e2982be0b9d.jpg";
-process.env.PIC = "IMG_8585.JPG";
+process.env.PIC = "https://img.picui.cn/free/2025/03/25/67e2982be0b9d.jpg";
+// process.env.PIC = "IMG_8585.JPG";
 
 if (!process.env.NAME) throw new Error("Please specify NAME in environment.");
 if (!process.env.PIC) throw new Error("Please specify PIC in environment.");
